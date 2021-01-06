@@ -1,0 +1,74 @@
+.app {
+  height: 295vh;
+  background: wheat;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: space-around;
+  justify-items: space-around;
+
+  
+}
+
+
+.Product {
+  height: 270px;
+  width: 270px;
+  background: rgb(223, 89, 89);
+  border-radius: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  box-shadow: 0 5px 5px;
+ 
+}
+
+
+
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 14.5vh;
+  background: black;
+  color: white;
+  flex-direction: row;
+
+}
+
+
+.nav-links {
+  width: 100%;
+  word-spacing: normal;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style-type: none;
+  flex-direction: strech;
+
+
+}
+
+.Footer {
+  display: flex;
+  justify-content: center;
+  align-items:stretch;
+  min-height: 15vh;
+  background: black;
+  color: white;
+  flex-direction: column;
+ 
+
+}
+
+.footer-links {
+  width: 100%;
+  word-spacing: normal;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+
+
+}
